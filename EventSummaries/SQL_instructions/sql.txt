@@ -1,0 +1,21 @@
+create database simple_log_summary ;
+
+drop database simple_log_summary;
+
+show databases;
+
+use simple_log_summary ;
+
+show tables;
+
+desc dev_periodic_info ;
+
+desc event_info ;
+
+desc event_type_info ;
+
+select * from event_info ;
+
+select * from event_type_info ;
+
+select eventType from event_type_info ;
