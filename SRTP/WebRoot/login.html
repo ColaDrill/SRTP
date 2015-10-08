@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<html>
+<head>
+<title>login0.html</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="image/logo.png">
+
+<script type="text/javascript" src="lib\bootstrap\bootstrap.min.js"></script>
+<link rel="stylesheet" href="lib\css\bootstrap.min.css">
+
+<link href="lib/css/signin.css" rel="stylesheet">
+<script src="lib/js/login/ie-emulation-modes-warning.js"></script>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta name="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+</head>
+
+<body>
+	<div class="container">
+		<form class="form-signin" action="LoginAction.action" method="post">
+			<h2 class="form-signin-heading">Please sign in</h2>
+			<label  class="sr-only">userName</label> 
+				<input type="text" name="userNameString" id="userNameString" class="form-control" placeholder="userName" required autofocus> 
+			<label for="inputPassword" class="sr-only">passWord</label> 
+				<input type="password" name="PassWordString" id="passWordString" class="form-control" placeholder="passWord" required>
+				
+			<div class="checkbox">
+				<label> <input type="checkbox" value="remember-me">
+					Remember me
+				</label>
+			</div>
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+		
+		</form>
+	</div>
+		
+</body>
+</html>

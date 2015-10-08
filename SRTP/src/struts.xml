@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		<default-action-ref name="error"></default-action-ref>
+		<action name="LoginAction" method="login" class="com.action.login.LoginAction">
+			<result name="userNameError"> WEB-INF/content/loginFail/userNameError.jsp </result>
+    		<result name="passWordError"> WEB-INF/content/loginFail/passWordError.jsp </result>
+	 		<result name="success">		  WEB-INF/index.html	    		  </result>
+		</action>
+		
+		<action name="ChartsAction_*" method="{1}" class="com.action.charts.ChartsAction">
+			<result name="success"> WEB-INF/{1}.html </result>
+		</action>
+
+		
+	</package>
+</struts>    

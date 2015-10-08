@@ -1,0 +1,41 @@
+
+Sep 25 2014 23:52:46 NIZWA-P-CORE-NE5000E-1 %%01SNMP/4/MSGTBL_ERR(l)[346311]:Failed to login through SNMP,because messages was failed to be added to the message list. (Ip=82.178.33.34, Times=2)
+Sep 26 2014 00:07:11 NIZWA-P-CORE-NE5000E-1 %%01SHELL/5/LOGIN(l)[346312]:u2000 login from 85.154.250.12.
+Sep 26 2014 00:07:11 NIZWA-P-CORE-NE5000E-1 %%01SHELL/5/AUTHCMDNONEED(l)[346313]:User u2000 doesn't need command authorization. (Source=85.154.250.12, LineType=VTY)
+Sep 26 2014 00:07:11 NIZWA-P-CORE-NE5000E-1 CMD/2/SUPER_CHANGE_SUCCESS:OID 1.3.6.1.4.1.2011.5.25.37.2.136 Super change successful.
+Sep 26 2014 00:07:11 NIZWA-P-CORE-NE5000E-1 %%01SHELL/5/CMDRECORD(l)[346314]:Record command information. (Task=VT0 , Ip=85.154.250.12, User=u2000, Command="super 3")
+Sep 26 2014 00:07:11 NIZWA-P-CORE-NE5000E-1 %%01CMD/4/SUPERLOGIN(l)[346315]:User logged in. (User=u2000, IpAddress=85.154.250.12, Level=3, LoginResult=Successful)
+Sep 26 2014 00:07:11 NIZWA-P-CORE-NE5000E-1 %%01SHELL/5/AUTHCMDFLAGCHG(l)[346316]:User u2000 command authorization flag changed from 0 to 0. (Source=85.154.250.12, LineType=VTY)
+Sep 26 2014 00:07:11 NIZWA-P-CORE-NE5000E-1 %%01CFM/4/SAVE(l)[346317]:The user chose Y when deciding whether to save the configuration to the device.
+Sep 26 2014 00:07:11 NIZWA-P-CORE-NE5000E-1 %%01SHELL/5/CMDRECORD(l)[346318]:Record command information. (Task=VT0 , Ip=85.154.250.12, User=u2000, Command="save all")
+Sep 26 2014 00:07:13 NIZWA-P-CORE-NE5000E-1 HWCM/4/CFGCHANGE:OID 1.3.6.1.4.1.2011.6.10.2.1 Configure changed. (EventIndex=5941, CommandSource=1, ConfigSource=2, ConfigDestination=4)
+Sep 26 2014 00:07:13 NIZWA-P-CORE-NE5000E-1 %%01HWCM/4/TRAPLOG(l)[346319]:OID 1.3.6.1.4.1.2011.6.10.2.1 configure changed. (EventIndex=5941, CommandSource=1, ConfigSource=2, ConfigDestination=4)
+Sep 26 2014 00:07:14 NIZWA-P-CORE-NE5000E-1 %%01SHELL/5/LOGOUT(l)[346320]:u2000 logout from 85.154.250.12.
+Sep 26 2014 00:07:14 NIZWA-P-CORE-NE5000E-1 %%01SHELL/5/CMDRECORD(l)[346321]:Record command information. (Task=VT0 , Ip=**, User=**, Command="undo debugging all")
+Sep 26 2014 00:11:15 NIZWA-P-CORE-NE5000E-1 %%01SNMP/4/MSGTBL_ERR(l)[346322]:Failed to login through SNMP,because messages was failed to be added to the message list. (Ip=82.178.33.34, Times=3)
+
+################################################################
+#Automatic record log end,current health information as follows:
+Slot                    CPU Usage     Memory Usage (Used/Total)
+---------------------------------------------------------------
+17      MPU(System Master) 14%           23%  439MB/1877MB
+1       LPU                13%           22%  182MB/820MB
+2       LPU                14%           27%  227MB/820MB
+3       LPU                10%           21%  176MB/820MB
+18      MPU                11%           21%  399MB/1877MB
+#DateTime Stamp: 2014-09-26 00:13:35.420
+################################################################
+
+
+Sep 26 2014 00:27:54 NIZWA-P-CORE-NE5000E-1 %%01SNMP/4/MSGTBL_ERR(l)[346323]:Failed to login through SNMP,because messages was failed to be added to the message list. (Ip=82.178.33.34, Times=4)
+################################################################
+#Automatic record log end,current health information as follows:
+Slot                    CPU Usage     Memory Usage (Used/Total)
+---------------------------------------------------------------
+17      MPU(System Master) 14%           23%  439MB/1877MB
+1       LPU                13%           22%  182MB/820MB
+2       LPU                14%           27%  227MB/820MB
+3       LPU                10%           21%  176MB/820MB
+18      MPU                11%           21%  399MB/1877MB
+#DateTime Stamp: 2014-09-26 00:43:35.330
+################################################################
