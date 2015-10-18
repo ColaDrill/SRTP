@@ -2,34 +2,189 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
-
-    <script type="text/javascript" src="js\bootstrap\bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css\bootstrap.min.css">
-
-    <title>Document</title>
+      <meta charset="UTF-8">
+      <title>系统文件分析系统</title>
+      <meta name="description" content="Pixma Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
+      <meta name="author" content="FIFOTHEMES.COM">
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+      <!-- Library CSS -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+      <link rel="stylesheet" href="css/animations.css" media="screen">
+      <link rel="stylesheet" href="css/superfish.css" media="screen">
+      <link rel="stylesheet" href="css/revolution-slider/css/settings.css" media="screen">
+      <link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+      <!-- Theme CSS -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Skin -->
+      <link rel="stylesheet" href="css/colors/blue.css" id="colors">
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="css/theme-responsive.css">
+      <!-- Switcher CSS -->
+     <link href="css/switcher.css" rel="stylesheet">
+     <link href="css/spectrum.css" rel="stylesheet">
+      <!-- Favicons -->
+      <link rel="shortcut icon" href="img/ico/favicon.ico">
+      <link rel="apple-touch-icon" href="img/ico/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-touch-icon-72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-touch-icon-114.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-touch-icon-144.png">
+      <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+      <!--[if IE]>
+      <link rel="stylesheet" href="css/ie.css">
+      <![endif]-->
+      <script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-2.1.4.min.js"></script>
+      <script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
 </head>
 
 <body>
-    <!-- 这里的导航栏应该要是固定的 -->
-    <nav id="navigation" class="navbar navbar-default navbar-static-top navbar-fixed-top">
-        <ol class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="select.html">Select</a></li>
-            <li><a href="#">K</a></li>
-            <li><a href="#">bal</a></li>
-            <li class="active">Data</li>
-        </ol>
-    </nav>
-    <!-- 这里用换行也是万不得已呀！ -->
-    <div id="lineFeed">
-        </br>
-        </br>
-        </br>
-        </br>
-    </div>
+      <header id="header">
+            <!-- Header Top Bar Start -->
+            <div class="top-bar">
+               <div class="slidedown collapse">
+                  <div class="container">
+                     <div class="phone-email pull-left">
+                        <a><i class="icon-phone"></i> Demo by 蔡嘉跃</a>
+                        <a href="mail%40example.html"><i class="icon-envelope"></i> Email : 876126135@qq.com</a>
+                     </div>
+                     <div class="pull-right">
+                        <ul class="social pull-left">
+                           <li class="facebook"><a href="#"><i class="icon-facebook"></i></a></li>
+                           <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                           <li class="dribbble"><a href="#"><i class="icon-dribbble"></i></a></li>
+                           <li class="linkedin"><a href="#"><i class="icon-linkedin"></i></a></li>
+                           <li class="rss"><a href="#"><i class="icon-rss"></i></a></li>
+                        </ul>
+                        <div id="search-form" class="pull-right">
+                           <form action="#" method="get">
+                              <input type="text" class="search-text-box">
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Header Top Bar End -->
+            <!-- Main Header Start -->
+            <div class="main-header">
+               <div class="container">
+                  <!-- TopNav Start -->
+                  <div class="topnav navbar-header">
+                     <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
+                     <i class="icon-angle-down icon-current"></i>
+                     </a> 
+                  </div>
+                  <!-- TopNav End -->
+                  <!-- Logo Start -->
+                  <div class="logo pull-left">
+                     <h1>
+                        <a href="index-2.html">
+                        <img src="img/logo.png" alt="pixma" width="125" height="60">
+                        </a>
+                     </h1>
+                  </div>
+                  <!-- Logo End -->
+                  <!-- Mobile Menu Start -->
+                  <div class="mobile navbar-header">
+                     <a class="navbar-toggle" data-toggle="collapse" href=".html">
+                     <i class="icon-reorder icon-2x"></i>
+                     </a> 
+                  </div>
+                  <!-- Mobile Menu End -->
+                  <!-- Menu Start -->
+                  <nav class="collapse navbar-collapse menu">
+                     <ul class="nav navbar-nav sf-menu">
+                        <li>
+                           <a id="current" href="HomePage.html">
+                           首页
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="index.html" class="sf-with-ul">登录</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="sf-with-ul">
+                           图表 
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="index.html" class="sf-with-ul">查看</a></li>
+                              <li><a href="extend2.html" class="sf-with-ul">+扩展</a></li>
+                              <li>
+                                 <a href="#" class="sf-with-ul"> 
+                                 +子表扩展 
+                                 <span class="sf-sub-indicator pull-right">
+                                 <i class="icon-angle-right "></i>
+                                 </span>
+                                 </a>
+                                 <ul>
+                                    <li><a href="#" class="sf-with-ul">子表1</a></li>
+                                    <li><a href="#" class="sf-with-ul">子表2</a></li>
+                                    <li><a href="#" class="sf-with-ul">子表3</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="sf-with-ul">
+                           选择
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="select.html" class="sf-with-ul">自定义</a></li>
+                              <li><a href="extend4.html" class="sf-with-ul">+扩展</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="sf-with-ul">
+                           报告 
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="opening_speech.html" class="sf-with-ul">开题报告</a></li>
+                              <li><a href="interim_report.html" class="sf-with-ul">中期报告</a></li>
+                              <li><a href="concluding_report.html" class="sf-with-ul">结题报告</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="sf-with-ul">
+                           成员
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="teacher.html" class="sf-with-ul">指导老师徐建</a></li>
+                              <li><a href="member1.html" class="sf-with-ul">成员卢云帆</a></li>
+                              <li><a href="member2.html" class="sf-with-ul">成员徐彦杰</a></li>
+                              <li><a href="member3.html" class="sf-with-ul">成员徐燕</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="contact.html">联系我们</a></li>
+                     </ul>
+                  </nav>
+                  <!-- Menu End --> 
+               </div>
+            </div>
+            <!-- Main Header End -->
+         </header>
     
     <!--
     <div id="menu">
@@ -65,10 +220,28 @@
     <div id="goTop">
         <a href="#lineFeed">回到顶部</a>
     </div>
-
+           <!-- Footer Bottom Start -->
+            <div class="footer-bottom">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">Copyright &copy; 2015.Jiayue Cai All rights reserved.</div>
+                     <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
+                        <ul class="social social-icons-footer-bottom">
+                           <li class="facebook"><a href="#" data-toggle="tooltip" title="Facebook"><i class="icon-facebook"></i></a></li>
+                           <li class="twitter"><a href="#" data-toggle="tooltip" title="Twitter"><i class="icon-twitter"></i></a></li>
+                           <li class="dribbble"><a href="#" data-toggle="tooltip" title="Dribble"><i class="icon-dribbble"></i></a></li>
+                           <li class="linkedin"><a href="#" data-toggle="tooltip" title="LinkedIn"><i class="icon-linkedin"></i></a></li>
+                           <li class="rss"><a href="#" data-toggle="tooltip" title="Rss"><i class="icon-rss"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Footer Bottom End --> 
     <script type="text/javascript" src="js/chart1.js"></script>
     <script type="text/javascript" src="js/chart2.js"></script>
     <script type="text/javascript" src="js/chart3.js"></script>
+    
 </body>
 
 </html>

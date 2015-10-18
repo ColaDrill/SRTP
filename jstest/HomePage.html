@@ -1,38 +1,1018 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
-	<script type="text/javascript" src="js\bootstrap\bootstrap.min.js"></script>
-	<link rel="stylesheet" href="css\bootstrap.min.css">
-
-	<!-- 这个字体失效了。。。 -->
-	<link href='http://fonts.googleapis.com/css?family=Chelsea+Market' rel='stylesheet' type='text/css'>
-
-	<title>Document</title>
-</head>
-
-<body>
-	<div class="jumbotron">
-		<h1>Hello, world!</h1>
-		<p>Businesses like to have memorable telephone numbers. One way to make a telephone number memorable is to have it spell a
-			memorable word or phrase. For example, you can call the University of Waterloo by dialing the memorable TUT-GLOP. Sometimes
-			only part of the number is used to spell a word. When you get back to your hotel tonight you can order a pizza from Gino's
-			by dialing 310-GINO. Another way to make a telephone number memorable is to group the digits in a memorable way. You could
-			order your pizza from Pizza Hut by calling their ``three tens'' number 3-10-10-10. The standard form of a telephone number
-			is seven decimal digits with a hyphen between the third and fourth digits (e.g. 888-1200). The keypad of a phone supplies
-			the mapping of letters to numbers, as follows:
-		</p>
-		<p><a class="btn btn-primary btn-lg" href="index.html" role="button">Learn more</a></p>
-	</div>
-
-	<footer class="footer">
-		<div class="container">
-			<p class="text-muted">Place sticky footer content here.</p>
-		</div>
-	</footer>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+   <head>
+      <meta charset="utf-8">
+      <title>系统文件分析系统</title>
+      <meta name="description" content="Pixma Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
+      <meta name="author" content="FIFOTHEMES.COM">
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+      <!-- Library CSS -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+      <link rel="stylesheet" href="css/animations.css" media="screen">
+      <link rel="stylesheet" href="css/superfish.css" media="screen">
+      <link rel="stylesheet" href="css/revolution-slider/css/settings.css" media="screen">
+      <link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+      <!-- Theme CSS -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Skin -->
+      <link rel="stylesheet" href="css/colors/blue.css" id="colors">
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="css/theme-responsive.css">
+      <!-- Switcher CSS -->
+     <link href="css/switcher.css" rel="stylesheet">
+     <link href="css/spectrum.css" rel="stylesheet">
+      <!-- Favicons -->
+      <link rel="shortcut icon" href="img/ico/favicon.ico">
+      <link rel="apple-touch-icon" href="img/ico/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-touch-icon-72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-touch-icon-114.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-touch-icon-144.png">
+      <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+      <!--[if IE]>
+      <link rel="stylesheet" href="css/ie.css">
+      <![endif]-->
+   </head>
+   <body class="home">
+      <div class="wrap">
+         <!-- Header Start -->
+         <header id="header">
+            <!-- Header Top Bar Start -->
+            <div class="top-bar">
+               <div class="slidedown collapse">
+                  <div class="container">
+                     <div class="phone-email pull-left">
+                        <a><i class="icon-phone"></i> Demo by 蔡嘉跃</a>
+                        <a href="mail%40example.html"><i class="icon-envelope"></i> Email : 876126135@qq.com</a>
+                     </div>
+                     <div class="pull-right">
+                        <ul class="social pull-left">
+                           <li class="facebook"><a href="#"><i class="icon-facebook"></i></a></li>
+                           <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                           <li class="dribbble"><a href="#"><i class="icon-dribbble"></i></a></li>
+                           <li class="linkedin"><a href="#"><i class="icon-linkedin"></i></a></li>
+                           <li class="rss"><a href="#"><i class="icon-rss"></i></a></li>
+                        </ul>
+                        <div id="search-form" class="pull-right">
+                           <form action="#" method="get">
+                              <input type="text" class="search-text-box">
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Header Top Bar End -->
+            <!-- Main Header Start -->
+            <div class="main-header">
+               <div class="container">
+                  <!-- TopNav Start -->
+                  <div class="topnav navbar-header">
+                     <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
+                     <i class="icon-angle-down icon-current"></i>
+                     </a> 
+                  </div>
+                  <!-- TopNav End -->
+                  <!-- Logo Start -->
+                  <div class="logo pull-left">
+                     <h1>
+                        <a href="index-2.html">
+                        <img src="img/logo.png" alt="pixma" width="125" height="60">
+                        </a>
+                     </h1>
+                  </div>
+                  <!-- Logo End -->
+                  <!-- Mobile Menu Start -->
+                  <div class="mobile navbar-header">
+                     <a class="navbar-toggle" data-toggle="collapse" href=".html">
+                     <i class="icon-reorder icon-2x"></i>
+                     </a> 
+                  </div>
+                  <!-- Mobile Menu End -->
+                  <!-- Menu Start -->
+                  <nav class="collapse navbar-collapse menu">
+                     <ul class="nav navbar-nav sf-menu">
+                        <li>
+                           <a id="current" href="HomePage.html">
+                           首页
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="index.html" class="sf-with-ul">登录</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="sf-with-ul">
+                           图表 
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="index.html" class="sf-with-ul">查看</a></li>
+                              <li><a href="extend2.html" class="sf-with-ul">+扩展</a></li>
+                              <li>
+                                 <a href="#" class="sf-with-ul"> 
+                                 +子表扩展 
+                                 <span class="sf-sub-indicator pull-right">
+                                 <i class="icon-angle-right "></i>
+                                 </span>
+                                 </a>
+                                 <ul>
+                                    <li><a href="#" class="sf-with-ul">子表1</a></li>
+                                    <li><a href="#" class="sf-with-ul">子表2</a></li>
+                                    <li><a href="#" class="sf-with-ul">子表3</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="sf-with-ul">
+                           选择
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="select.html" class="sf-with-ul">自定义</a></li>
+                              <li><a href="extend4.html" class="sf-with-ul">+扩展</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="sf-with-ul">
+                           报告 
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="opening_speech.html" class="sf-with-ul">开题报告</a></li>
+                              <li><a href="interim_report.html" class="sf-with-ul">中期报告</a></li>
+                              <li><a href="concluding_report.html" class="sf-with-ul">结题报告</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="sf-with-ul">
+                           成员
+                           <span class="sf-sub-indicator">
+                           <i class="icon-angle-down "></i>
+                           </span>
+                           </a>
+                           <ul>
+                              <li><a href="teacher.html" class="sf-with-ul">指导老师徐建</a></li>
+                              <li><a href="member1.html" class="sf-with-ul">成员卢云帆</a></li>
+                              <li><a href="member2.html" class="sf-with-ul">成员徐彦杰</a></li>
+                              <li><a href="member3.html" class="sf-with-ul">成员徐燕</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="contact.html">联系我们</a></li>
+                     </ul>
+                  </nav>
+                  <!-- Menu End --> 
+               </div>
+            </div>
+            <!-- Main Header End -->
+         </header>
+         <!-- Header End --> 
+         <!-- Content Start -->
+         <div id="main">
+            <!-- Slider Start-->
+            <div class="fullwidthbanner-container">
+               <div class="fullwidthbanner rslider">
+                  <ul>
+                     <!-- THE FIRST SLIDE -->
+                     <li data-delay="6000" data-masterspeed="300" data-transition="fade">
+                        <div class="slotholder"><img src="img/slider/slider-bg-1.jpg" data-fullwidthcentering="on" alt="Pixma"></div>
+                        <div class="caption modern_big_bluebg h1 lft tp-caption start"
+                           data-x="40"
+                           data-y="85"
+                           data-speed="700"
+                           data-endspeed="800"
+                           data-start="1000"
+                           data-easing="easeOutQuint"
+                           data-endeasing="easeOutQuint">
+                           <h3>系统文件分析系统</h3>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start" 
+                           data-easing="easeOutExpo" 
+                           data-start="1400" 
+                           data-speed="1050" 
+                           data-y="180" 
+                           data-x="40">
+                           <div class="list-slide">
+                              <i class="icon-camera slide-icon"></i>
+                              <h5 class="dblue"> 科研训练2015 </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start" 
+                           data-easing="easeOutExpo" 
+                           data-start="1800" 
+                           data-speed="1200" 
+                           data-y="220" 
+                           data-x="40">
+                           <div class="list-slide">
+                              <i class="icon-search slide-icon"></i>
+                              <h5 class="dblue"> 系统日志文件分析 </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start" 
+                           data-easing="easeOutExpo" 
+                           data-start="2200" 
+                           data-speed="1350" 
+                           data-y="260" 
+                           data-x="40">
+                           <div class="list-slide">
+                              <i class="icon-code slide-icon"></i>
+                              <h5 class="dblue"> 可视化 </h5>
+                           </div>
+                        </div>
+                        <div class="caption lfb caption_button_1 fadeout tp-caption start"
+                           data-x="40"
+                           data-y="330"
+                           data-speed="900"
+                           data-endspeed="300"
+                           data-start="2700"
+                           data-hoffset="-70"
+                           data-easing="easeOutExpo">
+                           <a class="btn-special hidden-xs btn-grey" href="#">Learn more</a>
+                        </div>
+                        <div class="caption lfb caption_button_2 fadeout tp-caption start"
+                           data-x="210"
+                           data-y="330"
+                           data-speed="800"
+                           data-endspeed="300"
+                           data-start="2900"
+                           data-hoffset="70"
+                           data-easing="easeOutExpo">
+                           <a class="btn-special hidden-xs btn-color" href="#">Use now</a>
+                        </div>
+                     </li>
+                     <!-- THE RESPONSIVE SLIDE -->
+                     <li data-transition="fade" data-slotamount="1" data-masterspeed="300">
+                        <img src="img/slider/slider-bg-2.jpg" data-fullwidthcentering="on" alt="">
+                        <div class="caption large_text sft"
+                           data-x="660"
+                           data-y="54"
+                           data-speed="300"
+                           data-start="800"
+                           data-easing="easeOutExpo"  >平台</div>
+                        <div class="caption medium_text sfl"
+                           data-x="689"
+                           data-y="92"
+                           data-speed="300"
+                           data-start="1100"
+                           data-easing="easeOutExpo"  >与</div>
+                        <div class="caption large_text sfr"
+                           data-x="738"
+                           data-y="88"
+                           data-speed="300"
+                           data-start="1100"
+                           data-easing="easeOutExpo"  ><span class="dblue">框架</span></div>
+                        <div class="caption list_slide lfb tp-caption start" 
+                           data-easing="easeOutExpo" 
+                           data-start="1400" 
+                           data-speed="1050" 
+                           data-y="180" 
+                           data-x="660">
+                           <div class="list-slide">
+                              <i class="icon-eye-open slide-icon"></i>
+                              <h5> Myeslipse 2014 Support </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start" 
+                           data-easing="easeOutExpo" 
+                           data-start="1800" 
+                           data-speed="1200" 
+                           data-y="220" 
+                           data-x="660">
+                           <div class="list-slide">
+                              <i class="icon-table slide-icon"></i>
+                              <h5> Struct 2 </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start" 
+                           data-easing="easeOutExpo" 
+                           data-start="2200" 
+                           data-speed="1350" 
+                           data-y="260" 
+                           data-x="660">
+                           <div class="list-slide">
+                              <i class="icon-ok slide-icon"></i>
+                              <h5> Hibernate 4 </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start" 
+                           data-easing="easeOutExpo" 
+                           data-start="2600" 
+                           data-speed="1350" 
+                           data-y="300" 
+                           data-x="660">
+                           <div class="list-slide">
+                              <i class="icon-twitter slide-icon"></i>
+                              <h5> Ajax </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start" 
+                           data-easing="easeOutExpo" 
+                           data-start="3000" 
+                           data-speed="1350" 
+                           data-y="340" 
+                           data-x="660">
+                           <div class="list-slide">
+                              <i class="icon-th slide-icon"></i>
+                              <h5> Bootstrap Framework </h5>
+                           </div>
+                        </div>
+                        <div class="caption lfl"
+                           data-x="53"
+                           data-y="30"
+                           data-speed="300"
+                           data-start="1400"
+                           data-easing="easeOutExpo">
+                           <img src="img/slider/responsive-imac.png" alt="iMac Responsive">
+                        </div>
+                        <div class="caption lfl"
+                           data-x="323"
+                           data-y="145"
+                           data-speed="300"
+                           data-start="1500"
+                           data-easing="easeOutExpo">
+                           <img src="img/slider/responsive-ipad.png" alt="iPad Responsive">
+                        </div>
+                        <div class="caption lfl"
+                           data-x="472"
+                           data-y="253"
+                           data-speed="300"
+                           data-start="1600"
+                           data-easing="easeOutExpo">
+                           <img src="img/slider/responsive-iphone.png" alt="iPhone Responsive">
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!-- Slider End--> 
+            <!-- Slogan Start-->
+            <div class="slogan bottom-pad-small">
+               <div class="container">
+                  <div class="row">
+                     <div class="slogan-content">
+                        <div class="col-lg-9 col-md-9">
+                           <h2 class="slogan-title">We design and develop the best website’s for log files analyze!</h2>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                           <div class="get-started">
+                              <button class="btn btn-special btn-color pull-right">Join us now！</button>
+                           </div>
+                        </div>
+                        <div class="clearfix"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Slogan End--> 
+            <!-- Main Content start-->
+            <div class="main-content">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="content-box big ch-item bottom-pad-small">
+                           <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1"><i class="icon-fullscreen"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="icon-fullscreen"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>引言</h3>
+                              <p>
+                                     系统日志文件分析系统是面向日志分析工作者的，目的是为了满足中小型系统文件的管理和分析参考。同时这篇需求分析也是进行系统日志文件管理有效的组织和详细分析的基础，便于维护人员进行内部维护、信息更新、验收和测试的工具说明，是用户操作说明的指导文档，是开发人员和用户交互的良好界面，起着非常重要的作用。这是开发系统日志文件系统的基础。为了更好的开发，对系统的设计要详细，开发的系统要简单实用。
+                              </p>
+                              <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="content-box big ch-item bottom-pad-small">
+                           <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1"><i class="icon-eye-open"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="icon-eye-open"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>项目背景</h3>
+                              <p>
+                                 项目名称为系统日志文件分析系统，为本科生科研训练项目《基于日志的事件挖掘方法研究和应用》的延伸。并分为以下模块完成日志文件的时序可视化，检索查询等主要功能。 本项目的提出者为上述科研训练课题的课题小组及其指导教师，开发者为13级软件工程2班系统日志文件分析系统开发小组。
+                              </p>
+                              <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="content-box big ch-item">
+                           <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1"><i class="icon-edit"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="icon-edit"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>概述</h3>
+                              <p>
+                                 针对复杂计算系统的系统管理和优化问题，以计算系统的系统日志数据为研究对象，研究基于日志的事件挖掘方法，重点突破事件提取方法、事件摘要和可视化方法，以及事件挖掘方法等关键技术；进一步地研究上述关键技术的综合实施方法，构建一个事件挖掘试验平台；并以云计算场景下集群系统日志和网络设备日志为应用背景，开展实验验证，优化综合解决方案，为设计更通用的事件挖掘平台奠定基础。本次项目主要实现了基于日志事件的可视化部分内容，并且预留一定的可扩展性。 
+                              </p>
+                              <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Main Content end--> 
+            <!-- Recent works start-->
+            <div class="recentworks bottom-pad">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 animate_afl d1">
+                        <div class="portfolio-desc">
+                           <h3 class="title">近期工作</h3>
+                           <p>提供给日志分析工作者对日志文件的的基本信息查询、日志事件时序化等功能。并提供一些私人定制功能分析师能够通过一些条件对自己所需要的日志进行查询。</p>
+                           <div class="carousel-controls">
+                              <a class="prev" href="#portfolio-carousel" data-slide="prev"><i class="icon-angle-left"></i></a>
+                              <a class="next" href="#portfolio-carousel" data-slide="next"><i class="icon-angle-right"></i></a>
+                              <div class="clearfix"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-9 col-md-9 col-xs-12">
+                        <div class="row">
+                           <div id="portfolio-carousel" class="portfolio-carousel slide">
+                              <div class="carousel-inner">
+                                 <div class="item active">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d2">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/portfolio-1.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span>
+                                          <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-1.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">团队合作</a>
+                                             <p>
+                                                Design / Development
+                                             </p>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d3">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/portfolio-2.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-2.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">核心框架</a>
+                                             <p>
+                                                Struct / Hibernate
+                                             </p>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d4">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/portfolio-3.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-3.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">前端设计</a>
+                                             <p>
+                                                CSS / JavaScript
+                                             </p>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="item">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/portfolio-4.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-4.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">倾听</a>
+                                             <p>
+                                                Listen / Active
+                                             </p>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/portfolio-5.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-5.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">思考</a>
+                                             <p>
+                                                Think / Reflect
+                                             </p>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
+                                       <div class="portfolio-item">
+                                          <a href="images/portfolio/portfolio-6.html" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-6.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">讨论</a>
+                                             <p>
+                                                Group / Discussion
+                                             </p>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Recent work end-->
+            <!-- Features start -->  
+            <div class="features bottom-pad">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h3  class="title">相关任务详解</h3>
+                        <div class="row">
+                           <div class="circular-nav">
+                              <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 animate_afl">
+                                 <div id="cn-tabs">
+                                    <div class="service service-1">
+                                       <div class="cn-content">
+                                          <h4>日志解析</h4>
+                                          <p>对硬件设备产生的日志文件进行解析并存入数据库，可以实现两种程度的解析，一种具有方法一般性，开发人员对日志本身进行识别， 构造相应的识别程序， 做到精准程度极高的日志解析。</p>
+                                          <p>另一种是利用分类聚类的方法，对日志内容进行较为模糊，精准度差，但适用面更广的识别。前一种识别已经用正则表达式，字符串处理技术解决。</p>
+                                          <p>后一种可以通过分类聚类的方法进行宽泛的识别。</p>
+                                          <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-2">
+                                       <div class="cn-content">
+                                          <h4>事件摘要及其可视化</h4>
+                                          <p>在分析事件模式之前，可以通过事件摘要方式从总体角度看看事件之间的关系。事件序列在一段时间后会捕获系统和用户活动。之前关于序列挖掘的研究主要集中在探索本地模式，尽管这些模式揭露了本地的关联，但是无法给出整个事件序列的综合概括。</p>
+                                          <p>另外，我们发现的序列模式的数量很大。因此我们需要一种较好的方式，实现建立简短的概要，在揭示事件之间的本地联系的同时，能够描述整个序列。</p>
+                                          <p>形式上，我们将这种概括问题称为维持概要长度和数据准确性平衡的最优化问题。通过两种动态规划算法的结合，我们可以在多项式时间内解决这个问题。</p>
+                                          <p>我们还研究了更加有效的贪心算法，并且证明了它适用于大型的数据集。基于人造的数据集和真实的数据集的实验表明，我们的算法是有效的，并且得出来高质量的结果，揭露了数据中的有趣的本地结构。</p>
+                                          <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="service service-3">
+                                       <div class="cn-content">
+                                          <h4>事件模式挖掘方法研究</h4>
+                                          <p>通过一些事件挖掘的方法，对事件摘要进行分析，从总体角度获得各个事件之间的联系，挖掘事件序列内隐含的信息，获取在数据中隐藏的信息，用于优化设备的运转。</p>
+                                          <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-4">
+                                       <div class="cn-content">
+                                          <h4>事件挖掘实验平台的构建</h4>
+                                          <p>提供给日志分析工作者对日志文件的的基本信息查询、日志事件时序化等功能。并提供一些私人定制功能分析师能够通过一些条件对自己所需要的日志进行查询。</p>
+                                          <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-5">
+                                       <div class="cn-content">
+                                          <h4>Structs框架——>登录模块</h4>
+                                          <p>Struts是开源软件。使用Struts的目的是为了帮助我们减少在运用MVC设计模型来开发Web应用的时间。如果我们想混合使用Servlets和JSP的优点来建立可扩展的应用，struts是一个不错的选择。</p>
+                                          <p>Struts 是Apache软件基金会（ASF）赞助的一个开源项目。它最初是Jakarta项目中的一个子项目，并在2004年3月成为ASF的顶级项目。它通过采用JavaServlet/JSP技术，实现了基于Java EEWeb应用的MVC设计模式的应用框架，是MVC经典设计模式中的一个经典产品。</p>
+                                          <p>输入用户名密码提交表单、提交到action属性的login.action，通过ActionServlet读struts-config.xml文件找到 action下的path属性找到.action，通过name属性找form-beans中的form-bean的name属性得到ActionForm的包名类名，先实例化form，把表单的值填充给form，调用form的validate方法验证、ActionErrors返回null表示验证通过，否则失败返回input指定的页面.验证通过会实例化Action，执行Action的execute方法。</p>
+                                          <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-6">
+                                       <div class="cn-content">
+                                          <h4>Hibernate框架——>前台与数据库的交互模块</h4>
+                                          <p>Hibernate是一个开放源代码的对象关系映射框架，它对JDBC进行了非常轻量级的对象封装，使得Java程序员可以随心所欲的使用对象编程思维来操纵数据库。</p>
+                                          <p>Hibernate可以应用在任何使用JDBC的场合，既可以在Java的客户端程序使用，也可以在Servlet/JSP的Web应用中使用，最具革命意义的是，Hibernate可以在应用EJB的J2EE架构中取代CMP，完成数据持久化的重任。</p>
+                                          <p>应用程序先调用Configration类，该类读取Hibernate的配置文件及映射文件中的信息，并用这些信息生成一个SessionFactpry对象。
+B:然后从SessionFactory对象生成一个Session对象，并用Session对象生成Transaction对象;可通过Session对象的get(),load(),save(),update(),delete()和saveOrUpdate()等方法对PO进行加载，保存，更新，删除等操作;在查询的情况下，可通过Session对象生成一个Query对象，然后利用Query对象执行查询操作;如果没有异常，Transaction对象将 提交这些操作结果到数据库中。</p>
+                                          <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-7">
+                                       <div class="cn-content">
+                                          <h4>Ajax技术——>动态交互功能</h4>
+                                          <p>在基于数据的应用中，用户需求的数据如联系人列表，可以从独立于实际网页的服务端取得并且可以被动态地写入网页中，给缓慢的Web应用体验着色使之像桌面应用一样。Ajax 的核心是 JavaScript 对象 XmlHttpRequest。该对象在 Internet Explorer 5 中首次引入，它是一种支持异步请求的技术。简而言之，XmlHttpRequest 使您可以使用 JavaScript 向服务器提出请求并处理响应，而不阻塞用户。</p>
+                                          <p>首先创建一个作为 XMLHttpRequest 对象使用的 XMLHttp 变量。把它的值设置为 null。然后测试 window.XMLHttpRequest 对象是否可用。在新版本的 Firefox, Mozilla, Opera 以及 Safari 浏览器中，该对象是可用的。如果可用，则用它创建一个新对象：XMLHttp=new XMLHttpRequest()。如果不可用，则检测 window.ActiveXObject 是否可用。在 Internet Explorer version 5.5 及更高的版本中，该对象是可用的。如果可用，使用它来创建一个新对象：XMLHttp=new ActiveXObject()。</p>
+                                          <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-8">
+                                       <div class="cn-content">
+                                          <h4>Json数据交换格式——>数据交换模块</h4>
+                                          <p>JSON(JavaScript Object Notation) 是一种轻量级的数据交换格式。它基于ECMAScript的一个子集。 JSON采用完全独立于语言的文本格式，但是也使用了类似于C语言家族的习惯（包括C、C++、C#、Java、JavaScript、Perl、Python等）。这些特性使JSON成为理想的数据交换语言。 易于人阅读和编写，同时也易于机器解析和生成(网络传输速率)。</p>
+                                          <p>Json简单说就是javascript中的对象和数组，所以这两种结构就是对象和数组两种结构，通过这两种结构可以表示各种复杂的结构
+   1、对象：对象在js中表示为“{}”括起来的内容，数据结构为 {key：value,key：value,...}的键值对的结构，在面向对象的语言中，key为对象的属性，value为对应的属性值，所以很容易理解，取值方法为 对象.key 获取属性值，这个属性值的类型可以是 数字、字符串、数组、对象几种。
+   2、数组：数组在js中是中括号“[]”括起来的内容，数据结构为 ["java","javascript","vb",...]，取值方式和所有语言中一样，使用索引获取，字段值的类型可以是 数字、字符串、数组、对象几种。
+   经过对象、数组2种结构就可以组合成复杂的数据结构了。</p>
+                                          <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-9">
+                                       <div class="cn-content">
+                                          <h4>Bootstrap前端框架——>导航栏应用</h4>
+                                          <p>Bootstrap，来自 Twitter，是目前很受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。[1]  它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。Bootstrap提供了优雅的HTML和CSS规范，它即是由动态CSS语言Less写成。Bootstrap一经推出后颇受欢迎，一直是GitHub上的热门开源项目，包括NASA的MSNBC（微软全国广播公司）的Breaking News都使用了该项目。国内一些移动开发者较为熟悉的框架，如WeX5前端开源框架等，也是基于Bootstrap源码进行性能优化而来。</p>
+                                          <p>Bootstrap中包含了丰富的Web组件，根据这些组件，可以快速的搭建一个漂亮、功能完备的网站。其中包括以下组件：下拉菜单、按钮组、按钮下拉菜单、导航、导航条、路径导航、分页、排版、缩略图、警告对话框、进度条、媒体对象等。</p>
+                                          <a href="#">Read More <i class="icon-angle-right"></i><i class="icon-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 animate_afr">
+                                 <div class="cn-wrapper">
+                                    <ul>
+                                       <li class="circle-1 circle"><a class="active" href="#"><span class="icon-picture"></span></a></li>
+                                       <li class="circle-2 circle"><a href="#"><span class="icon-rocket"></span></a></li>
+                                       <li class="circle-3 circle"><a href="#"><span class="icon-puzzle-piece"></span> </a></li>
+                                       <li class="circle-4 circle"><a href="#"><span class="icon-thumbs-up-alt"></span></a></li>
+                                       <li class="circle-5 circle"><a href="#"><span class="icon-html5"></span></a></li>
+                                       <li class="circle-6 circle"><a href="#"><span class="icon-user"></span></a></li>
+                                       <li class="circle-7 circle"><a href="#"><span class="icon-google-plus"></span> </a></li>
+                                       <li class="circle-8 circle"><a href="#"><span class="icon-envelope-alt"></span></a></li>
+                                       <li class="circle-9 circle"><a href="#"><span class="icon-hand-right"></span></a></li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Features End --> 
+            <!-- Latest Posts start --> 
+            <div class="latest-posts">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12 col-md-12 com-sm-12 col-xs-12">
+                        <h3 class="title">进度展览板</h3>
+                     </div>
+                     <div class="clearfix"></div>
+                     <div class="blog-showcase col-lg-12 col-md-12 col-sm-12 col-xs-12 animate_afb d1">
+                        <ul>
+                           <li class="">
+                              <div class="blog-showcase-thumb col-lg-4">
+                                 <div class="post-body">
+                                    <a class="post-item-link" href="img/portfolio/portfolio-5.jpg" data-rel="prettyPhoto"><span class="post-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img alt="" src="img/portfolio/portfolio-5.jpg"></a>
+                                 </div>
+                              </div>
+                              <div class="blog-showcase-extra-info col-lg-4">
+                                 <span><a href="#">Sep 10th, 2015</a></span>
+                                 <h4><a href="#" class="title">日志解析</a></h4>
+                                 <p>对硬件设备产生的日志文件进行解析并存入数据库，可以实现两种程度的解析，一种具有方法一般性，开发人员对日志本身进行识别， 构造相应的识别程序，做到精准程度极高的日志解析。</p>
+                                 <a href="#">Read more <i class="icon-double-angle-right"></i></a>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="blog-showcase-thumb col-lg-4">
+                                 <div class="post-body">
+                                    <a class="post-item-link" href="img/portfolio/portfolio-6.jpg" data-rel="prettyPhoto"><span class="post-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img alt="" src="img/portfolio/portfolio-6.jpg"></a>
+                                 </div>
+                              </div>
+                              <div class="blog-showcase-extra-info col-lg-4">
+                                 <span><a href="#">Sep 20th, 2015</a></span>
+                                 <h4><a href="#" class="title">事件摘要及其可视化</a></h4>
+                                 <p>我们将这种概括问题称为维持概要长度和数据准确性平衡的最优化问题。通过两种动态规划算法的结合，我们可以在多项式时间内解决这个问题。我们还研究了更加有效的贪心算法，并且证明了它适用于大型的数据集。</p>
+                                 <a href="#">Read more <i class="icon-double-angle-right"></i></a>
+                              </div>
+                           </li>
+                           <li class="blog-first-el">
+                              <div class="blog-showcase-thumb col-lg-4">
+                                 <div class="post-body">
+                                    <a class="post-item-link" href="img/portfolio/portfolio-7.jpg" data-rel="prettyPhoto"><span class="post-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img alt="" src="img/portfolio/portfolio-7.jpg"></a>
+                                 </div>
+                              </div>
+                              <div class="blog-showcase-extra-info col-lg-4">
+                                 <span><a href="#">Sep 30th, 2015</a></span>
+                                 <h4><a href="#" class="title">事件模式挖掘方法研究</a></h4>
+                                 <p>通过一些事件挖掘的方法，对事件摘要进行分析，从总体角度获得各个事件之间的联系，挖掘事件序列内隐含的信息，获取在数据中隐藏的信息，用于优化设备的运转。</p>
+                                 <a href="#">Read more <i class="icon-double-angle-right"></i></a>
+                              </div>
+                           </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                     </div>
+                  </div>
+                  <div class="divider"></div>
+               </div>
+            </div>
+            <!-- Latest Posts End -->
+            <!-- Our Clients Start-->
+            <div class="our-clients">
+               <div class="container">
+                  <div class="row">
+                     <div class="client">
+                        <div class="client-logo">
+                           <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                              <div class="clients-title">
+                                 <h3 class="title">样例图示</h3>
+                                 <div class="carousel-controls pull-right">
+                                    <a class="prev" href="#client-carousel" data-slide="prev"><i class="icon-angle-left"></i></a>
+                                    <a class="next" href="#client-carousel" data-slide="next"><i class="icon-angle-right"></i></a>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix"></div>
+                              <div class="row">
+                                 <div id="client-carousel" class="client-carousel slide">
+                                    <div class="carousel-inner">
+                                       <div class="item active">
+                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d1">
+                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-1.png"></a></div>
+                                          </div>
+                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d2">
+                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-2.png"></a></div>
+                                          </div>
+                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d3">
+                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-3.png"></a></div>
+                                          </div>
+                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d4">
+                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-4.png"></a></div>
+                                          </div>
+                                       </div>
+                                       <div class="item">
+                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-5.png"></a></div>
+                                          </div>
+                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-4.png"></a></div>
+                                          </div>
+                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-3.png"></a></div>
+                                          </div>
+                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-2.png"></a></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <!-- Testimonials Widget Start -->
+                              <div class="row ">
+                                 <div class="testimonials widget">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                       <div class="testimonials-title">
+                                          <h3 class="title">相关谈话</h3>
+                                       </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div id="testimonials-carousel" class="testimonials-carousel slide animate_afr d5">
+                                       <div class="carousel-inner">
+                                          <div class="item active">
+                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="testimonial item">
+                                                   <p>
+                                                      通过这次课程我对前边多学的知识有了进一步的认识与掌握，使我进一步认识到课本所学知识与实际应用是不一样的，在实际应用中需要你去针对具体的问题去灵活的变通处理，而并不总是和课本上的知识一样。
+                                                   </p>
+                                                   <div class="testimonials-arrow">
+                                                   </div>
+                                                   <div class="author">
+                                                      <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-1.jpg"></div>
+                                                      <div class="testimonial-author-info">
+                                                         <a href="#"><span class="color">Mengfei Song</span></a>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="item">
+                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="testimonial item">
+                                                   <p>
+                                                      这次软件项目设计时间比较长，在一个完整的开发流程和开发周期内能够始终保持“思想消极，意志乐观”，认识到工作的复杂度，也认识到工作态度，精神状态对于最终的结果实际意义。
+                                                   </p>
+                                                   <div class="testimonials-arrow">
+                                                   </div>
+                                                   <div class="author">
+                                                      <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-2.jpg"></div>
+                                                      <div class="testimonial-author-info">
+                                                         <a href="#"><span class="color">Jiayue Cai</span></a>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="item">
+                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="testimonial item">
+                                                   <p>
+                                                      只有理论知识是远远不够的，只有把所学的理论知识与实践相结合起来，从理论中得出结论，才能真正为社会服务，从而提高自己的实际动手能力和独立思考的能力。
+                                                   </p>
+                                                   <div class="testimonials-arrow">
+                                                   </div>
+                                                   <div class="author">
+                                                      <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-3.jpg"></div>
+                                                      <div class="testimonial-author-info">
+                                                         <a href="#"><span class="color">Yunfan Lu</span></a>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Our Clients End -->  
+         </div>
+         <!-- Content End -->
+         <!-- Footer Start -->
+         <footer id="footer">
+            <!-- Footer Top Start -->
+            <div class="footer-top">
+               <div class="container">
+                  <div class="row">
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
+                        <h3>About</h3>
+                        <p> 
+                           System log file analysis system is geared to the needs of log analysis workers, in order to meet the small and medium-sized system file management and analysis of reference.
+                        </p>
+                     </section>
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
+                        <h3>Team Work</h3>
+                        <ul id="tweets">
+                        </ul>
+                     </section>
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-us">
+                           <li>
+                              <i class="icon-map-marker"></i>
+                              <p> 
+                                 <strong>Address:</strong> 南京理工大学 <br>
+                                 江苏 南京 
+                              </p>
+                           </li>
+                           <li>
+                              <i class="icon-phone"></i>
+                              <p><strong>Phone:</strong> null</p>
+                           </li>
+                           <li>
+                              <i class="icon-envelope"></i>
+                              <p><strong>Email:</strong><a href="mailto:info@876126135@qq.com">876126135@qq.com</a></p>
+                           </li>
+                        </ul>
+                     </section>
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-four">
+                        <h3>Design&Development</h3>
+                        <ul id="flickrfeed" class="thumbs"></ul>
+                     </section>
+                  </div>
+               </div>
+            </div>
+            <!-- Footer Top End --> 
+            <!-- Footer Bottom Start -->
+            <div class="footer-bottom">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">Copyright &copy; 2015.Jiayue Cai All rights reserved.</div>
+                     <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
+                        <ul class="social social-icons-footer-bottom">
+                           <li class="facebook"><a href="#" data-toggle="tooltip" title="Facebook"><i class="icon-facebook"></i></a></li>
+                           <li class="twitter"><a href="#" data-toggle="tooltip" title="Twitter"><i class="icon-twitter"></i></a></li>
+                           <li class="dribbble"><a href="#" data-toggle="tooltip" title="Dribble"><i class="icon-dribbble"></i></a></li>
+                           <li class="linkedin"><a href="#" data-toggle="tooltip" title="LinkedIn"><i class="icon-linkedin"></i></a></li>
+                           <li class="rss"><a href="#" data-toggle="tooltip" title="Rss"><i class="icon-rss"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Footer Bottom End --> 
+         </footer>
+         <!-- Scroll To Top --> 
+         <a href="#" class="scrollup"><i class="icon-angle-up"></i></a>
+      </div>
+      <!-- Wrap End -->
+      <section id="style-switcher">
+        <h2>切换风络 <a href="#"><i class="icon-cog"></i></a></h2>
+        <div>
+           <h3>预定义的颜色</h3>
+           <ul id="colors" class="colors">
+              <li><a title="蓝" class="blue" href="#"></a></li>
+              <li><a title="绿" class="green" href="#"></a></li>
+              <li><a title="橙" class="orange" href="#"></a></li>
+              <li><a title="紫" class="purple" href="#"></a></li>
+              <li><a title="红" class="red" href="#"></a></li>
+              <li><a title="品红" class="magenta" href="#"></a></li>
+              <li><a title="棕" class="brown" href="#"></a></li>
+              <li><a title="灰" class="gray" href="#"></a></li>
+              <li><a title="金" class="golden" href="#"></a></li>
+              <li><a title="墨绿" class="teal" href="#"></a></li>
+           </ul>
+           <h3>布局风格</h3>
+           <div class="layout-style">
+              <select autocomplete="off" id="layout-style">
+                 <option value="1">宽屏</option>
+                 <option value="2">窄屏</option>
+              </select>
+           </div>
+           <h3>标题颜色</h3>
+           <div class="header-color">
+              <input type='text' class="header-bg" />
+           </div>
+           <h3>页脚颜色</h3>
+           <div class="header-color">
+              <input type='text' class="footer-bg" />
+           </div>
+           <h3>页眉颜色</h3>
+           <div class="header-color">
+              <input type='text' class="footer-bottom" />
+           </div>
+           <h3>背景色</h3>
+           <ul id="bg" class="colors bg">
+              <li><a class="bg1" href="#"></a></li>
+              <li><a class="bg2" href="#"></a></li>
+              <li><a class="bg3" href="#"></a></li>
+              <li><a class="bg4" href="#"></a></li>
+              <li><a class="bg5" href="#"></a></li>
+              <li><a class="bg6" href="#"></a></li>
+              <li><a class="bg7" href="#"></a></li>
+              <li><a class="bg8" href="#"></a></li>
+              <li><a class="bg9" href="#"></a></li>
+              <li><a class="bg10" href="#"></a></li>
+           </ul>
+        </div>
+     </section>
+      <!-- The Scripts -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/jquery.parallax.js"></script> 
+      <script src="js/modernizr-2.6.2.min.js"></script> 
+      <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+      <script src="js/jquery.nivo.slider.pack.js"></script>
+      <script src="js/jquery.prettyPhoto.js"></script>
+      <script src="js/superfish.js"></script>
+      <script src="js/tweetMachine.js"></script>
+      <script src="js/tytabs.js"></script>
+      <script src="js/jquery.gmap.min.js"></script>
+      <script src="js/circularnav.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/jflickrfeed.js"></script>
+      <script src="js/imagesloaded.pkgd.min.js"></script>
+      <script src="js/waypoints.min.js"></script>
+      <script src="js/spectrum.js"></script>
+      <script src="js/switcher.js"></script>
+      <script src="js/custom.js"></script>
+   <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
-
 </html>
